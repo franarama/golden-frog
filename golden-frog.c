@@ -1,3 +1,9 @@
+/*
+Francesca Ramunno
+Comp 2130, TRU
+Winter 2016 senester
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
