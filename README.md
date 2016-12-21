@@ -2,11 +2,11 @@
 
 This program was a school assignment loosely based off the "Shuffled Frog Leaping Algorithm". 
 
-The goal is to find what is called "The Golden Frog". First, one large array is created (a population) with random values between 0 and a max depending on user input. Each of these represent X, Y, and Z for the frogs that will eventually determine their "Fitness Value". The population is split up into 5 different memeplexes (groups), and the fitness values are calculated. (Each row represents a frog and the columns are attributes). The frogs with the lowest fitness values from each group are selected. Of the final five, one last comparison is done to find the golden frog. 
+The goal is to find what is called "The Golden Frog". First, one large array is created (a population of frogs) with random values between 0 and a max depending on user input. Each of these represent X, Y, and Z (different attributes) for the frogs that will eventually determine their "Fitness Value". The population is split up into 5 different memeplexes (groups), and the fitness values are calculated. (Each row represents a frog and the columns are attributes). The frogs with the lowest fitness values from each of the 5 groups are selected. Of the final five, one last comparison is done to find the golden frog. 
 
 Here's how it works:
 
-1. The program takes 3 integers as user input from the command line. It then creates an array with 100 rows and 3 columns. It populates the array by generating random numbers from 0 to MAX, where MAX is the user input for each column. (The first integer is column 1, second is column 2, and third is column 3). 
+1. The program takes 3 integers as user input from the command line that represent the max for X, Y and Z. It then creates an array with 100 rows and 3 columns. It populates the array by generating random numbers from 0 to MAX, where MAX is the user input for each column. (The first integer is for column 1, second is column 2, and third is column 3). 
 
 2. The array is then sorted and printed out. (Each line formatted as: [eg: P001 = 6, 13, 27 up until P100 where 6 is the X value, 13 is the Y value, and 27 is the Z value]).
 
