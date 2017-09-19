@@ -1,7 +1,5 @@
 # golden-frog
 
-This program was a school assignment loosely based off the "Shuffled Frog Leaping Algorithm". 
-
 The goal is to find what is called "The Golden Frog". First, one large array is created (a population of frogs) with random values between 0 and a max depending on user input. Each of these represent X, Y, and Z (different attributes) for the frogs that will eventually determine their "Fitness Value". The population is split up into 5 different memeplexes (groups), and the fitness values are calculated. (Each row represents a frog and the columns are attributes). The frogs with the lowest fitness values from each of the 5 groups are selected. Of the final five, one last comparison is done to find the golden frog. 
 
 Here's how it works:
